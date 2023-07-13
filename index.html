@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> ABC Learning Center - Home </title>
+        <link rel="stylesheet" href="NABCLS.css">
+        <script src="ABCLS.js"></script>
+    </head>
+    <body>
+<header>
+    <div class="logo">
+        <img src="Pictures/logo2.png" alt="logo">
+    </div>
+
+        <div class="wrapper">
+            <input type="text" placeholder="Search here..." id="searchbar">
+        <div class="searchbtn">
+            <img src="Pictures/sbt.png" alt="searchbtn" height="20px" width="20px"/>
+        </div>
+    </div>
+
+    <div class="nav">  
+        
+    </div>
+
+    <div class="reg"> 
+        <a href="Register.html"> Register</a>
+    </div>
+</header>
+    <div style="color:white;" class="time">    
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+    </div> 
+
+    <div class="content">
+           
+        <h2 style="margin: 50px 0 10px 20px; color:white"><i> ABC Learning Center </i> </h2>
+        <p  style="margin: 10px 0 25px 30px; color:white;background-color: rgb(0, 128, 128,0.5); border: 2px black solid;border-radius: 25px; padding: 10px;"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsa est quidem voluptates, harum sunt dolores autem accusantium velit excepturi sit eaque perspiciatis perferendis <br>
+            maxime ipsam nisi quos laboriosam ducimus, ad aut!  Deserunt nobis nemo, sapiente maiores vero corrupti eveniet fuga reiciendis recusandae, cupiditate provident corporis distinctio, possimus laborum. <br>
+            Dolorem adipisci consectetur repellat odit doloribus veritatis ratione quam dolorum, possimus voluptas optio consequatur aspernatur nesciunt eum. Ut quibusdam minima quo assumenda delectus a perferendis <br>
+            expedita natus odio vitae non nesciunt, dolorum voluptate alias temporibus unde quam. Magni repellat ducimus molestiae sapiente eum, atque excepturi odit laborum architecto, cum eaque. Iste!</p>
+    </div>
+
+    <script>
+        $("p").click();
+        $("p").click(function(){
+           console.log("Paragraph Clicked");
+        })
+
+        $("h2").click();
+        $("h2").click(function(){
+           console.log("Header Clicked");
+        })
+   </script>
+
+
+    <div class="dropdown">
+        <input style="color:white; font-size: 20px;" type="text" class="textBox" placeholder="Course Details" readonly>
+        <div class="option">
+            <div onclick="location.href='Course 1.html'"> <ion-icon name="logo-javascript"></ion-icon> Programming in Java </div>
+            <div onclick="location.href='Course 2.html'"> <ion-icon name="globe-outline"></ion-icon> Programming in .Net </div>
+            <div onclick="location.href='Course 3.html'"> <ion-icon name="logo-microsoft"></ion-icon> Microsoft Office </div>
+            <div onclick="location.href='Course 4.html'"> <ion-icon name="logo-html5"></ion-icon> HTML </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script>
+        function show (anything){
+            document.querySelector('.textBox').value = anything; 
+        }
+
+        let dropdown = document.querySelector ('.dropdown');
+        dropdown.onclick = function() {
+            dropdown.classList.toggle ('active');
+        }
+
+
+    </script>
+
+    <div class="dropdown2">
+        <input style="color:white; font-size: 20px;" type="text" class="textBox2" placeholder="Course Schedule" readonly>
+        <div class="option2">
+            <div onclick="location.href='Schedule 1.html'"> <ion-icon name="logo-javascript"></ion-icon>Programming in Java  </div>
+            <div onclick="location.href='Schedule 2.html'"> <ion-icon name="globe-outline"></ion-icon>Programming in .Net </div>
+            <div onclick="location.href='Schedule 3.html'"> <ion-icon name="logo-microsoft"></ion-icon> Microsoft Office </div>
+            <div onclick="location.href='Schedule 4.html'"> <ion-icon name="logo-html5"></ion-icon> HTML </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script>
+        function show (anything){
+            document.querySelector('.textBox2').value = anything; 
+        }
+
+        let dropdown2 = document.querySelector ('.dropdown2');
+        dropdown2.onclick = function() {
+            dropdown2.classList.toggle ('active');
+        }
+        
+    </script>
+
+        <footer>
+            
+            <div class="foot">
+                <a style="text-decoration: none; margin: 0 3cm 0 3cm;" href="Sitemap.html"> Sitemap </a>
+                <a style="text-decoration: none; margin: 0 3cm 0 3cm;" href="About Us.html"> About Us </a>
+                <a style="text-decoration: none; margin: 0 3cm 0 3cm;" href="Contact Us.html"> Contact Us </a>
+                <a style="text-decoration: none; margin: 0 3cm 0 3cm;" href="Privacy.html"> Privacy Policy </a>
+            </div>
+
+                <h2 style="color:white"> &copy; 2022, ABC Learning Center, All rights reserved</h2>
+        </footer>
+    </body>
+</html>

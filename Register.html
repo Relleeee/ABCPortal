@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sg.css">
+<title>
+    Register
+</title>
+<header>
+
+        
+
+    <div class="logo">
+        <a href="index.html"><img src="Pictures/logo2.png" alt="logo"></a>
+    </div>
+
+    <div class="wrapper">
+            <input type="text" placeholder="Search here..." id="searchbar">
+        <div class="searchbtn">
+            <img src="Pictures/sbt.png" alt="searchbtn" height="20px" width="20px"/>
+        </div>
+    </div>
+
+    
+
+    <div class="nav">  
+        <a style="text-decoration: none;"           href="index.html">Home</a>
+        <a style="text-decoration: none;"           href="Course 1.html">Course Details</a>
+        <a style="text-decoration: none;"           href="Schedule 1.html">Course Schedule</a>
+    </div>
+    
+    </header>
+
+    <div class="dk">
+        <div id="border">
+            <img src="img/logo2.png" alt="">
+         <h1 style="text-align:center ;">Register</h1>
+            <p style="text-align:center ;">Please fill in this form to create an account.</p>
+                <br>
+            <form action="Thank you.html">
+                <label for="fname">FIRST NAME:</label>
+                <input type="text" placeholder="Please enter your first name" style="border-radius: 10px"; id="fname" required><br><br>
+        
+                <label for="lname">LAST NAME:</label>
+                <input type="text" placeholder="Please enter your last name" style="border-radius: 10px"; id="lname" required><br><br>
+                
+                <label for="sex">SEX:</label>
+                <input type="radio" id="sex" name="sex" value="male"/> Male. <input type="radio" id="sex" name="sex" value="female"/> Female <br/>
+
+                <br>
+                <label for="email">EMAIL:</label>
+                <input type="email" placeholder="Please enter your email address" style="border-radius: 10px"; id="email" required><br><br>
+        
+                <label for="birthdate">BIRTHDATE:</label><br>
+                <input type="date" placeholder="Please enter your birthdate" id="birthdate" style="width: 150px; height: 50px; border-radius: 10px;" required><br><br>
+        
+                <label for="course">COURSE</label>
+                <input type="text" placeholder="Please enter your course" style="border-radius: 10px"; id="course" required><br><br>
+
+                <label for="address">ADDRESS:</label><br>
+                <input type="text" placeholder="Please enter your address" style="border-radius: 10px; width:400px ;" id="address" required><bR></bR>
+                <a href="Thank you.html"><button type="submit" onclick="save()" style="border-radius: 10px"; id="submit">SUBMIT</button></a>
+        
+        
+        <script src="sg.js"></script>
+    </div>
+        
+    </div>
+
+    <footer>
+
+        <h2> &copy; 2022, ABC Learning Center, All rights reserved</h2>
+</footer>
+
+
+
+</body>
+
+
+
+</html>

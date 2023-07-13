@@ -1,0 +1,1068 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-ser, cursive ; 
+}
+
+body {
+    background: url(Pictures/bg2.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    background: rgba(0,0,0,0.6);
+    max-width: 250px ;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.wrapper .input{
+    width: 85%;
+    padding: 15px 20px;
+    border: 0;
+    border-radius:5px ;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.input .placeholder {
+    font-size: 40px;
+}
+
+
+.searchbtn {
+    background: whitesmoke;
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .sbt.png {
+    position: absolute;
+    top: 50%
+    
+}
+
+.logo {
+    margin: 0;
+    padding: 0; 
+}
+
+.logo img {
+    position: relative;;
+    top: 0%;
+    left: 0%;
+    height: 80%;
+    width: 10%;
+    filter:invert(100)
+}
+
+
+header, footer {
+    position: absolute;
+    background-image:url(Pictures/bg.jpg);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header h2 {
+    position: absolute;
+    margin-top: 20px;
+    
+}
+header {
+    height: 12vh; 
+    
+}
+
+.reg a {
+    position: absolute;;
+    display: flex;
+    border: 2px black solid;
+    text-align: center;
+    right: 13.5%;
+    top: 4%;
+    padding: 10px 10px 10px 10px;
+    border-color: black;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.reg a:hover{
+    color:white;
+    background-color: black;;
+    border-radius: 25px;
+}
+
+
+footer{
+    height: 10vh;
+    bottom: 0;
+}
+
+footer h2{
+    position:absolute;
+    left: 35%;
+    bottom: 0;
+    color: white;
+    
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+}
+
+.nav a {
+    position: relative;
+    left: 30%;
+    margin: 50% 15% -10% 0; 
+    font-size: 20px;
+    color: white;; 
+}
+
+.nav a:hover {
+    color: blue;
+    
+}
+.foot {
+    position: absolute;
+    left: 18%;
+    font-size: 18px; 
+}
+
+.foot a {
+    color: white;
+}
+
+.foot a:hover {
+    color:blue;
+}
+
+
+.time {
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top: 7.5%;
+    right:-2%;
+    transform: translate(-50%, -50%);
+    font-size:  20px;
+    border-radius: 25px;
+    border-color: black;
+    border:2px;
+}
+
+.content{
+    position: absolute;
+    color: white;
+    top: 15%;
+    outline: 2px ;
+
+}
+
+.content h1{
+    position: absolute;;
+    font-size: 15px;
+}
+
+
+    
+
+.content video {
+    height: 400px;
+    width: 650px;
+    max-width: 100%;
+    margin: 0 300px 0 650px
+}
+
+.details1{
+    position:relative;
+    top:15%
+    
+}
+
+.details1 h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.details1 h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.details1 table {
+    position:absolute;
+    right: 35%;
+    color:white; 
+}
+ tr td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.6);
+ }
+.details1 fieldset {
+    position: absolute;
+    width: 50%;
+    float: right;
+    top: 175%;
+    left: 20%;
+
+}
+
+.details1 legend {
+    position: relative;
+    top: 100%;
+    color: white;
+}
+
+.details1 p {
+    color:white;
+}
+.details1 img {
+    position: absolute;
+    right: 10%;
+    bottom: -300%;
+}
+
+.javaT {
+    margin: 0;
+    padding: 0;
+}
+
+.javaT h1{
+    position: absolute;
+    top: 45%;
+    left: 46.5%;
+    border: 2px black solid ;
+    background: gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.javaT .cj img {
+    position:absolute;
+    top: 60%;
+    left:46.5%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.javaT .cj p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 46.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.javaT .dion img {
+    position:absolute;
+    top: 55%;
+    left:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.javaT .dion p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.javaT .marg img {
+    position:absolute;
+    top: 55%;
+    right:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.javaT .marg p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    right: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.details2{
+    position:relative;
+    top:15%
+    
+}
+
+.details2 h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.details2 h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.details2 table {
+    position:absolute;
+    right: 35%;
+    color:white; 
+}
+ tr td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.6);
+ }
+.details2 fieldset {
+    position: absolute;
+    width: 50%;
+    float: right;
+    top: 175%;
+    left: 20%;
+
+}
+
+.details2 legend {
+    position: relative;
+    top: 100%;
+    color: white;
+}
+
+.details2 p {
+    color:white;
+}
+.details2 img {
+    position: absolute;
+    right: 5%;
+    bottom: -290%;
+}
+
+.Netdot {
+    margin: 0;
+    padding: 0;
+}
+
+.Netdot h1{
+    position: absolute;
+    top: 45%;
+    left: 46.5%;
+    border: 2px black solid ;
+    background: gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Netdot .baste img {
+    position:absolute;
+    top: 60%;
+    left:47.5%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.Netdot .baste p {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 46.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.Netdot .geb img {
+    position:absolute;
+    top: 55%;
+    left:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.Netdot .geb p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.Netdot .pons img {
+    position:absolute;
+    top: 55%;
+    right:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.Netdot .pons p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    right: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.details3{
+    position:relative;
+    top:15%
+    
+}
+
+.details3 h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.details3 h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.details3 table {
+    position:absolute;
+    right: 35%;
+    color:white; 
+}
+ tr td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.6);
+ }
+.details3 fieldset {
+    position: absolute;
+    width: 50%;
+    float: right;
+    top: 175%;
+    left: 20%;
+
+}
+
+.details3 legend {
+    position: relative;
+    top: 100%;
+    color: white;
+}
+
+.details3 p {
+    color:white;
+}
+.details3 img {
+    position: absolute;
+    right: 5%;
+    bottom: -290%;
+}
+
+.msdot {
+    margin: 0;
+    padding: 0;
+}
+
+.msdot h1{
+    position: absolute;
+    top: 45%;
+    left: 46.5%;
+    border: 2px black solid ;
+    background: gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.msdot .chin img {
+    position:absolute;
+    top: 60%;
+    left:47.5%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.msdot .chin p {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 47.30%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.msdot .alle img {
+    position:absolute;
+    top: 55%;
+    left:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.msdot .alle p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.msdot .gwen img {
+    position:absolute;
+    top: 55%;
+    right:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.msdot .gwen p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    right: 75.50%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.details4{
+    position:relative;
+    top:15%
+    
+}
+
+.details4 h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.details4 h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.details4 table {
+    position:absolute;
+    right: 35%;
+    color:white; 
+}
+ tr td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.6);
+ }
+.details4 fieldset {
+    position: absolute;
+    width: 50%;
+    float: right;
+    top: 175%;
+    left: 20%;
+
+}
+
+.details4 legend {
+    position: relative;
+    top: 100%;
+    color: white;
+}
+
+.details4 p {
+    color:white;
+}
+.details4 img {
+    position: absolute;
+    right: 5%;
+    bottom: -290%;
+}
+
+.htdot {
+    margin: 0;
+    padding: 0;
+}
+
+.htdot h1{
+    position: absolute;
+    top: 45%;
+    left: 46.5%;
+    border: 2px black solid ;
+    background: gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.htdot .mark img {
+    position:absolute;
+    top: 60%;
+    left:47.5%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.htdot .mark p {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 47.85%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.htdot .shie img {
+    position:absolute;
+    top: 55%;
+    left:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.htdot .shie p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 76.85%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.htdot .joan img {
+    position:absolute;
+    top: 55%;
+    right:76.75%;
+    border: 2px white solid;
+    background:white;
+    padding: 15px 10px 30px 10px;
+}
+
+.htdot .joan p {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    right: 76.92%;
+    border:2px solid white;
+    padding: 0 14px 0 14px;
+    background: black;
+    
+}
+
+.sched{
+    position:relative;
+    top:15%
+    
+}
+
+.sched h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.sched h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.sched table {
+    color:white; 
+}
+
+.sched fieldset {
+    margin: 20px;
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    float: right;
+    left: 25%;
+    top: 15%;
+}
+
+.about{
+    color:white;
+}
+
+.about h1 {
+    position:absolute;;
+    top:15%;
+    font-size: 15px;
+}
+
+.about h2 {
+    position: absolute;
+    font-size: 25px;
+    top: 20%;
+    right: 48.5%;
+}
+
+.abt {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    font-size: 20px;
+    right: 5% ;
+    left: 22%;
+    
+}
+
+.abt p {
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    font-size: 20px;
+    right: 7% ;
+    border: 2px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0,0.5);
+    color:white;
+    top: 50%;
+    margin: 100px 250px 0 0;
+    padding: 10px;
+}
+
+.abt img {
+    position: absolute;
+    left : -21%;
+    top: 17%;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 175px;
+    height: 125px;
+}
+
+.owner h1{
+    position: absolute;
+    top: 53%;
+    left: 9%;
+    font-size:18px;
+    background-color: rgb(0, 0, 0,0.5);
+
+}
+
+.owner img {
+    position: absolute;
+    left : 11%;
+    top: 40%;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 175px;
+    height: 125px;
+}
+
+.cowner h1{
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    font-size:18px;
+    background-color: rgb(0, 0, 0,0.5);
+
+}
+
+.cowner img {
+    position: absolute;
+    right : 10%;
+    bottom: 40%;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 175px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+.privacy {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    right: 12%;
+}
+
+.privacy h1 {
+    position:absolute;
+    top:-63.5%;
+    font-size: 15px;
+    color:white;
+    left: 0%;
+}
+
+.privacy h2 {
+    border-radius: 25px;
+    border-color: blue;
+    border: 2px solid ; 
+    width: 25%;
+    background-color: white;
+    right: 35%;
+    position:absolute;
+    
+}
+
+.privacy p {
+    border-radius: 10px;
+    border: 3px solid ; 
+    border-color: black;
+    width:70%;
+    background-color: white;
+    margin: 0 0 0 300px;
+    padding: 10px;
+}
+
+.cous{
+    position:relative;
+    top:15%;
+    font-size: 15px;
+    
+}
+
+.cous h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+.cous h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+
+.fb img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    bottom: 70%;
+    margin: 0 0 0 10px;
+}
+.fb h1 {
+    position:absolute;
+    bottom: 70%;
+    margin: 0 0 0 40px;
+    color: white;
+}
+
+
+
+.twt img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    bottom: 65%;
+    margin: 0 0 0 10px;
+}
+.twt h1 {
+    position:absolute;
+    bottom: 65%;
+    margin: 0 0 0 40px;
+    color: white;
+}
+
+
+
+.email img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    bottom: 60%;
+    margin: 0 0 0 10px;
+}
+.email h1 {
+    position:absolute;
+    bottom: 60%;
+    margin: 0 0 0 40px;
+    color: white;
+}
+
+
+
+.pn img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    bottom: 55%;
+    margin: 0 0 0 10px;
+}
+
+.pn h1 {
+    position:absolute;
+    bottom: 55%;
+    margin: 0 0 0 40px;
+    color: white;
+}
+
+
+.loc img {
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    right: 150px;
+    margin: 250px 500px 0 0;
+    border-radius: 25px;
+    border-color: black;
+    color:black;
+    border:2px solid black;
+}
+
+.loc h1 {
+    position: absolute;
+    bottom: 70%;
+    margin: 0 0 0 400px;
+    color:white; 
+}
+
+.sitemap {
+    position:absolute;
+    bottom: 70%;
+    color:white;
+
+}
+
+.sitemap h1 {
+    position: absolute;;
+    bottom: 70%;
+    right: -965px;
+}
+
+.sitemap .sitehome ul  {
+    display: flex table-column;
+    position: absolute;
+    right: -250px;
+    list-style: none ;
+    text-decoration: none;;
+    border: 2px solid black;
+    background-color: rgb(0, 128, 128, 0.5);
+    border-radius: 25px;
+    padding: 0 10px;
+    
+}.sitemap .sitehome ul li #home  {
+    display: flex table-column;
+    position: absolute;
+    right: -250px;
+    list-style: none ;
+    text-decoration: none;;
+    border: 2px solid black;
+    background-color: rgb(0, 128, 128, 0.5);
+    
+}
+
+.sitemap .coudet ul  {
+    display: flex table-column;
+    position: absolute;
+    right: -750px;
+    list-style: none ;
+    text-decoration: none;;
+    border: 2px solid black;
+    background-color: rgb(0, 128, 128, 0.5);
+    border-radius: 25px;
+    padding: 0 10px;
+}
+
+.sitemap .cousch ul  {
+    display: flex table-column;
+    position: absolute;
+    right: -1200px;
+    list-style: none ;
+    text-decoration: none;;
+    border: 2px solid black;
+    background-color: rgb(0, 128, 128, 0.5);
+    border-radius: 25px;
+    padding: 0 10px;
+}
+
+.sitemap .abour ul  {
+    display: flex table-column;
+    position: absolute;
+    right: -1750px;
+    list-style: none ;
+    text-decoration: none;;
+    border: 2px solid black;
+    background-color: rgb(0, 128, 128, 0.5);
+    border-radius: 25px;
+    padding: 0 10px;
+}
+
+.ty {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 27%;
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.ty h1 {
+    font-size: 50px;
+}
+
+.ty p {
+    font-size: 20px;
+}
+
+.rgb h1 {
+    position: absolute;
+    top:41%;
+    right: 40%;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 10px;
+}

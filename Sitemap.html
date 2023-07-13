@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>
+           Sitemap 
+        </title>
+            <link rel="stylesheet" href="ABCLS.CSS">
+            <script src="ABCLS.js"></script>
+            <script src="jquery-3.6.1.min.js"></script>
+    </Head>
+
+    <body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Pictures/logo2.png" alt="logo"></a>
+        </div>
+
+        <div class="wrapper">
+                <input type="text" placeholder="Search here..." id="searchbar">
+            <div class="searchbtn">
+                <img src="Pictures/sbt.png" alt="searchbtn" height="20px" width="20px"/>
+            </div>
+        </div>
+    
+        
+
+        <div class="nav">  
+            <a style="text-decoration: none;"                       href="index.html">Home</a>
+            <a style="text-decoration: none;"                       href="Course 1.html">Course Details</a>
+            <a style="text-decoration: none;"                       href="Schedule 1.html">Course Schedule</a>
+        </div>
+        
+        <div class="reg"> 
+            <a href="Register.html"> Register</a>
+        </div>
+
+        </header>
+
+        <div class="time">    
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+            <span id="session">AM</span>
+        </div> 
+
+        <div class="sitemap">
+
+        <h1> Sitemap </h1>
+            <div class="sitehome">
+                <ul>
+                    <li style="font: size 40px; ;"> Home</li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="index.html"> Homepage </a></li>
+                </ul>
+
+                <script>
+                    $("li").click();
+                    $("li").click(function(){
+                        console.log("Home Clicked")
+                    });
+                </script>
+
+            </div>
+
+            <div class="coudet">
+                <ul>
+                    <li style="font: size 40px; ;"> Course Details </li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Course 1.html"> Programming in Java </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Course 2.html"> Programming in .Net </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Course 3.html"> Microsoft Office </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Course 4.html"> HTML </a></li>
+                </ul>
+
+                <script>
+                    $("li").click();
+                    $("li").click(function(){
+                        console.log("Course Details Clicked")
+                    });
+                </script>
+                
+            </div>
+
+            <div class="cousch">
+                <ul>
+                    <li style="font: size 40px; ;"> Course Schedule </li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Schedule 1.html"> Programming in Java </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Schedule 2.html"> Programming in .Net </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Schedule 3.html"> Microsoft Office </a></li>
+                    <li style="text-indent: 20px;"> <a style="color:white;" href="Schedule 4.html"> HTML </a></li>
+                </ul>
+
+                <script>
+                    $("li").click();
+                    $("li").click(function(){
+                        console.log("Course Schedule Clicked")
+                    });
+                </script>
+
+            </div>
+
+            <div class="abour">
+                <ul>
+                    <li style="font: size 40px; ;"> About The Website</li>
+                    <li style="text-indent: 40px;"> <a style="color:white;" href="About Us.html"> About Us </a></li>
+                    <li style="text-indent: 40px;"> <a style="color:white;" href="Contact Us.html"> Contact Us </a></li>
+                    <li style="text-indent: 40px;"> <a style="color:white;" href="Privacy.html"> Privacy Policy </a></li>
+                    <li style="text-indent: 40px;"> <a style="color:white;" href="Sitemap.html"> Sitemap </a></li>
+                </ul>
+
+                <script>
+                    $("li").click();
+                    $("li").click(function(){
+                        console.log("About The Website Clicked")
+                    });
+                </script>
+
+            </div>
+
+        </div>
+            <footer>
+            
+                <div class="foot">
+                    <a style="text-decoration: none;          color: yellow; margin: 0 3cm 0 3cm;" href="Sitemap.html">Sitemap</a>
+                    <a style="text-decoration: none;                           margin: 0 3cm 0 3cm;" href="About Us.html">About Us</a>
+                    <a style="text-decoration: none;                           margin: 0 3cm 0 3cm;" href="Contact Us.html">Contact Us</a>
+                    <a style="text-decoration: none;                           margin: 0 3cm 0 3cm;" href="Privacy.html"> Privacy Policy </a>
+                </div>
+
+                <h2> &copy; 2022, ABC Learning Center, All rights reserved</h2>
+        </footer>
+    </body>
+</html>
